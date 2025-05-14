@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "GetContact": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7189"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "--init",
+      "httpPort": 34853,
+      "useSSL": false
+    }
+  }
+}
