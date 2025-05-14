@@ -5,11 +5,11 @@ using Microsoft.Extensions.Logging;
 
 namespace GetContact;
 
-public class Function1
+public class ContactFunctions
 {
-    private readonly ILogger<Function1> _logger;
+    private readonly ILogger<ContactFunctions> _logger;
 
-    public Function1(ILogger<Function1> logger)
+    public ContactFunctions(ILogger<ContactFunctions> logger)
     {
         _logger = logger;
     }
